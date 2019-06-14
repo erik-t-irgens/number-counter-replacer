@@ -1,12 +1,25 @@
-# _{Application Name}_
+# _Number Counter and Replacer_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Counts up to user generated integer and then replaces certain numbers with provided phrases, June 14th, 2019_
 
-#### By _**{List of contributors}**_
+#### By _**Erik Irgens**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program should take a user generated input, in the form of an integer number, and then post a string of numbers counting up to that user generated number. However, certain numbers will be replaced with designated strings - such as Beep!, Boop!, and "I'm sorry, Dave. I'm afraid I can't do that."
+
+### Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| **Homepage** | User accesses localhost:5004 | Homepage with user input form |
+| **Program Gathers User Input** | User input: "5" | Output: "5" |
+| **Program counts up to User Input number from 0**| User input: "5" | Output: "0, 1, 2, 3, 4, 5" |
+| **Program replaces all "1" integers within the count with "Beep!"**| User input: "5" | Output: "0, Beep!, 2, 3, 4, 5" |
+| **Program replaces all "2" integers within the count with "Boop!"**| User input: "5" | Output: "0, Beep!, Boop!, 3, 4, 5" |
+| **Program replaces all "3" integers within the count with "I'm sorry, Dave. I'm afraid I can't do that."**| User input: "5" | Output: "0, Beep!, Boop!, "I'm sorry, Dave. I'm afraid I can't do that.", 4, 5" |
+| **Program replaces entire number if any of the above rules are met with the result.**| Input: 105| Output: "Beep!" |
+| **Program's previous rules have reverse seniority over other rules**| Input: 32, 21, 10| Output: "I'm sorry...", Boop!, Beep! |
+
 
 ## Setup/Installation Requirements
 
