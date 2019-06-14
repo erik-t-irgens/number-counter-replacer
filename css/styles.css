@@ -1,0 +1,33 @@
+#cardStyle {
+    background-color: white;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.resultStyle {
+    text-align: center;
+    color: #74f442;
+    margin-top: 10px;
+    margin-bottom: auto;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#getResult {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#formStyle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: auto;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

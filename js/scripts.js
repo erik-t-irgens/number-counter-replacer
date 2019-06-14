@@ -29,18 +29,22 @@ $(document).ready(function() {
             }
         }
 
-       // front end code
-
-    for (let index = 0; index < countedString.length; index++) {
-            setTimeout (function timer(){
-                $("#resultant").text(countedString[index]);
-            }, index*1000 );        
-    }
 
         console.log(countedString);
 
+        // front end code
+         $("#cardShow").slideDown(200)         
+          for (let index = 0; index < countedString.length; index++) {
+                  setTimeout (function timer(){
+                      $("#resultant").slideDown(500);
+                      $("#resultant").text(countedString[index]);
+                      $("#resultant").slideUp(500);
+                  }, index*1000 );     
+          }
 
 
         event.preventDefault();
     });
+
+
 });

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
@@ -13,22 +14,25 @@
 </head>
 <body>
     <div class="container">
+      <div class="card bg-dark" id="cardStyle">
         <div class="row" id="form-style">
-            <div class="col-md-12">
-             <div class="card bg-dark"><h1>Count up to your number!</h1></div>
+            <div class="col-md-12" id="formStyle">
+            <h1>Count up to your number!</h1>
              <form id="counterForm">
                 <label for="userNumber">Provide a number, and we will generate all numbers leading up to it!</label><br>
-                <input type="text" name="userNumber" id="userNumber">
-                <button type="submit" class="btn btn-outline-dark">Count for me!</button>
+                <input type="text" name="userNumber" id="userNumber"><br>
+                <button type="submit" class="btn btn-outline-success" id="getResult">Give Number</button>
              </form>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card bg-dark" id="resultant"></div>
+        <div class="resultStyle card bg-outline-success" id="cardShow">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card bg-dark" id="resultant"></div>
+                </div>
             </div>
         </div>
+      </div>
     </div>
     
     
