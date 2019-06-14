@@ -17,18 +17,36 @@
       <div class="card bg-dark" id="cardStyle">
         <div class="row" id="form-style">
             <div class="col-md-12" id="formStyle">
-            <h1>Count up to your number!</h1>
+            <div class="card-header" id="cardHeader">Count up to your number!</div><br>
              <form id="counterForm">
                 <label for="userNumber">Provide a number, and we will generate all numbers leading up to it!</label><br>
                 <input type="text" name="userNumber" id="userNumber"><br>
-                <button type="submit" class="btn btn-outline-success" id="getResult">Give Number</button>
+                <button type="submit" class="btn btn-outline-warning" id="getResult">Give Number</button>
              </form>
             </div>
         </div>
         <div class="resultStyle card bg-outline-success" id="cardShow">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 card bg-secondary card-image-overlay" style="Background-image: url(https://image.freepik.com/free-vector/polygonal-gray-yellow-background_1100-266.jpg)" id="resultCard">
+                    <div class="row">
+                        <div class="col-md-6" id="whatsHappeningHidden1">
+                                <h5><strong>This is being converted</strong></h5>
+                            <div class="card bg-secondary" > <p id="originalArray"></p></div>
+                        </div>
+                        <div class="col-md-6" id="whatsHappeningHidden2">
+                                <h5><strong>To this</strong></h5>
+                            <div class="card bg-warning" > <p id="resultantArray"></p></div>
+                        </div>
+                        
+                    </div>
+                    <button type="btn" class="btn btn-outline-light" id="clearResult">Clear</button>
+                    <div class="row">
+                        <div class="col-sm-12"><button type="btn" class="btn btn-outline-warning" id="whatsHappening">What's going on?</button></div>
+                    </div>
                     <div class="card bg-dark" id="resultant"></div>
+
+                    
+                    
                 </div>
             </div>
         </div>

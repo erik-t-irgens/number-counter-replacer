@@ -1,20 +1,51 @@
 #cardStyle {
     background-color: white;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 15%;
+    margin-bottom: auto;
 
 }
 
 .resultStyle {
     text-align: center;
     color: #74f442;
-    margin-top: 10px;
+    
     margin-bottom: auto;
     font-family: 'Titillium Web', sans-serif;
     margin-left: 10px;
     margin-right: 10px;
 
+}
+
+#whatsHappeningHidden1, #whatsHappeningHidden2 {
+    display: none;
+    margin-top: 0px;
+    color: white;
+}
+
+#resultantArray {
+    display: none;
+    margin-top: 0px;
+    color: white;
+}
+
+#resultant {
+    display: none;
+    font-weight: bolder;
+    color: #ffc107;
+    font-size: 30px;
+}
+
+#whatsHappening {
+
+    display: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+   
+    position: static;
+    text-shadow: 2px 2px gray;
 }
 
 #getResult {
@@ -22,12 +53,27 @@
     margin-bottom: 20px;
 }
 
+#clearResult { 
+    display: none;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px gray;
+
+}
+
+#resultCard {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #formStyle {
     text-align: center;
     margin-top: 10px;
     margin-bottom: auto;
     font-family: 'Titillium Web', sans-serif;
-    margin-left: 10px;
-    margin-right: 10px;
+
+}
+
+#cardHeader {
+    font-size: 30px;
 }
 
