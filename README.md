@@ -6,7 +6,7 @@
 
 ## Description
 
-_This program should take a user generated input, in the form of an integer number, and then post a string of numbers counting up to that user generated number. However, certain numbers will be replaced with designated strings - such as Beep!, Boop!, and "I'm sorry, Dave. I'm afraid I can't do that."
+_This program should take a user generated input, in the form of an integer number, and then post a string of numbers counting up to that user generated number. However, certain numbers will be replaced with designated strings - such as Beep!, Boop!, and "I'm sorry, Dave. I'm afraid I can't do that.". These will be displayed on a timer  Otherwise, the user may opt to look at what is happening between the numbers. Buttons can display what is being generated, and what it is being converted to in a hidden row with two columns. 
 
 ### Specs
 | Spec | Input | Output |

@@ -1,3 +1,8 @@
+body {
+     background-color: dimgray;
+
+   }
+
 #cardStyle {
     background-color: white;
     color: white;
@@ -21,6 +26,7 @@
     display: none;
     margin-top: 0px;
     color: white;
+    text-shadow: 2px 2px darkslategray
 }
 
 #resultantArray {
